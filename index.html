@@ -1,0 +1,61 @@
+<html>
+<head>
+  <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <ol>
+        <div class="image_and_result col-xs-12">
+            <li class="col-sm-4 col-xs-12">
+                <b>Image - </b>
+                <img src="20230327_075635.jpg" class="img-responsive">
+                <img src="20230328_165805.jpg" class="img-responsive">
+                <img src="20230330_182739.jpg" class="img-responsive">
+                <img src="20230330_182742.jpg" class="img-responsive">
+                <img src="20230330_182750.jpg" class="img-responsive">
+                <img src="20230330_182759.jpg" class="img-responsive">
+                <img src="20230330_182803.jpg" class="img-responsive">
+                <img src="20230330_182826.jpg" class="img-responsive">
+                <img src="20230330_182834.jpg" class="img-responsive">
+                <img src="20230330_182902.jpg" class="img-responsive">
+            </li>
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>GOOGLE LENS</b> - 
+                <span></span>
+            </h5>
+            <h5 class="col-sm-4 col-xs-12">
+                Output on <b>Mobilenet Model</b> - 
+                <span></span>
+            </h5>
+
+            <div class="mini_result" class="col-xs-12">
+                <h4>
+                    Result - I showed 10 objects on Google Lens and 8 were correct and the other 2 were not correct. While on Mobile net found 6 items and didnt find 4. </h4>
+                    <hr>
+                <h4>Trophy: Not found on Mobile Net and found on Google LENS
+                    Wolf soft toy: Found on Mobile net, Not found on Google Net
+                    Red Bear: Found on Mobile Net and Not found on Google LENS
+                    octopus: Not found on Mobile Net, Found on google Lens.
+                    Rubix Cube: Not found on Mobile Net, Found on Google Lens
+                    Glasses, Found on mobile net and found on google Lens
+                    Hat: Not found on Mobile net, found on google Lens
+                    Bear: Found on Mobile net and found on google Lens
+                    Stuffed cow: Found on mobile lens and found on google Lens
+                    Remote: Not found on mobile net and found on google lens
+                </h4>
+            </div>
+            
+
+        </div>
+    </ol>
+
+
+</body>
